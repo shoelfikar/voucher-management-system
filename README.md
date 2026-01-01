@@ -272,7 +272,6 @@ docker run -p 80:80 voucher-frontend:latest
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/api/auth/register` | Register a new user |
 | POST | `/api/auth/login` | Login and get JWT token |
 
 ### Voucher Endpoints (Protected)
