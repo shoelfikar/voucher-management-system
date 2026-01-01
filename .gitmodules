@@ -1,0 +1,6 @@
+[submodule "voucher-frontend"]
+	path = voucher-frontend
+	url = git@github.com:shoelfikar/voucher-frontend.git
+[submodule "voucher-backend"]
+	path = voucher-backend
+	url = git@github.com:shoelfikar/voucher-backend.git
