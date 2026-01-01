@@ -120,7 +120,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone --recurse-submodules https://github.com/your-username/voucher-management-system.git
+git clone --recurse-submodules https://github.com/shoelfikar/voucher-management-system.git
 cd voucher-management-system
 ```
 
@@ -220,7 +220,7 @@ npm run preview
 
 ### Using Docker Compose
 
-1. **Create external network** (if not exists):
+1. **Create external network** (optional):
 
 ```bash
 docker network create internal-network
@@ -229,7 +229,7 @@ docker network create internal-network
 2. **Build and run containers**:
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 This will start:
